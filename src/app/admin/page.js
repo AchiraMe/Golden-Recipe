@@ -156,7 +156,7 @@ export default function Home() {
                   <h4>Sign in to account</h4>
                   <p>Enter your Staff id & password to login<br />ระบุ รหัสพนักงาน และ รหัสผ่าน เพื่อเข้าสู่ระบบ</p>
                   <div className="form-group">
-                    <label className="col-form-label">Staff id / รหัสพนักงาน</label>
+                    <label className="col-form-label">Staff id / รหัสGG</label>
                     <input
                       className="form-control"
                       type="text"
