@@ -79,7 +79,7 @@ export default function Home() {
               setCookie('token', data.token, {
                 path: '/',
                 maxAge: 4 * 60 * 60,
-              }); window.location.href = '/Home';
+              }); window.location.href = '/Tierlist';
 
             }
           })
@@ -111,7 +111,7 @@ export default function Home() {
           path: "/",
           maxAge: 24 * 60 * 60,
         });
-        window.location.href = "/Home";
+        window.location.href = "/admin/Tierlist/Character";
       } else {
         Swal.fire("Login failed. Please check your credentials.", "", "error");
       }
